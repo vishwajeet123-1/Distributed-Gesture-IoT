@@ -3,8 +3,8 @@
 #include <ESPAsyncWebServer.h>
 
 // --- CONFIGURATION ---
-const char* ssid = "DUBE BROADBAND 9423351431";
-const char* password = "78877532";
+const char* ssid = "YOUR_WIFI_NAME";
+const char* password = "YOUR_WIFI_PASSWORD";
 
 // The 5 Pins for your 5 LEDs
 const int ledPins[] = {13, 12, 14, 27, 26}; 
