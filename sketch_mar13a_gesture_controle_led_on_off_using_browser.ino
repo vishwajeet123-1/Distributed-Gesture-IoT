@@ -5,8 +5,9 @@
 
 // --- SETTINGS ---
 // --- WIFI CREDENTIALS ---
-const char* ssid = "DUBE BROADBAND 9423351431";
-const char* password = "78877532";
+// --- CONFIGURATION ---
+const char* ssid = "YOUR_WIFI_NAME";
+const char* password = "YOUR_WIFI_PASSWORD";
 const int ledPin = 2; // Built-in LED (Change to 4 or 5 if 2 doesn't work)
 
 AsyncWebServer server(80);
